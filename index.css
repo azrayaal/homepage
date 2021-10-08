@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* navbar */
+li #register {
+  padding: 10px 10px;
+  border: rgb(129, 129, 228) 1px solid;
+  color: rgb(129, 129, 228);
+  border-radius: 40px;
+}
+li #register:hover {
+  padding: 10px 10px;
+  border: rgb(129, 129, 228) 1px solid;
+  color: #fff;
+  background-color: rgb(129, 129, 228);
+  border-radius: 40px;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px rgb(129, 129, 228) solid;
+}
+
+nav .navbar-brand {
+  font-weight: bold;
+}
+/* end of navbar */
+
+/* Home */
+
+.home {
+  padding-top: 100px;
+  font-size: larger;
+  height: 100vh;
+  /* background-color: red; */
+  position: relative;
+}
+@media only screen and (max-width: 450px) {
+  .home {
+    height: 120vh;
+  }
+}
+
+.home a {
+  color: white;
+  text-decoration: none;
+}
+
+.home .caption {
+  bottom: 30%;
+  position: absolute;
+}
+
+@media only screen and (max-width: 450px) {
+  .home .caption {
+    position: absolute;
+    top: 15vh;
+  }
+}
+
+.home .btn {
+  padding: 20px 40px;
+  background-color: rgb(129, 129, 228);
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 450px) {
+  .home .btn {
+    position: absolute;
+    right: 12vh;
+  }
+}
+
+.home .btn:hover {
+  padding: 20px 40px;
+  background-color: rgb(69, 69, 145);
+  border-radius: 50px;
+}
+
+.home img {
+  max-height: 500px;
+  max-width: 450px;
+  background-color: rgb(129, 129, 228);
+  border-radius: 50px;
+  object-fit: cover;
+  position: absolute;
+  right: 130px;
+  bottom: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media only screen and (max-width: 450px) {
+  .home img {
+    position: absolute;
+    bottom: 10vh;
+    right: 3vh;
+    height: 300px;
+    width: 300px;
+  }
+}
+
+.home .playbtn .bx{
+  color: white;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  font-size: 90px;
+  bottom: 120px;
+  right: 520px;
+  background-color: rgb(129, 129, 228);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home .playbtn .bx:hover {
+  background-color: rgb(69, 69, 145);
+}
+
+@media only screen and (max-width:450px){
+  .home .playbtn .bx{
+  position: absolute;
+  font-size: 50px;
+  bottom: 5.7vh;
+  right: 23vh;
+  }
+}
+/* end of Home */
